@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone - About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 30px;
+            background-color: #000;
+        }
+
+        .header h1 {
+            color: #1DB954;
+            font-size: 36px;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .team {
+            margin-top: 30px;
+        }
+
+        .team h2 {
+            color: #1DB954;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .team ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .team ul li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .back {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .back a {
+            text-decoration: none;
+            color: #1DB954;
+            font-size: 18px;
+        }
+
+        .back a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>About Us</h1>
+    </div>
+    <div class="content">
+        <p>
+            Welcome to our Spotify Clone! Our mission is to provide a seamless and visually appealing platform where users can explore, manage, and enjoy their favorite music.
+        </p>
+        <p>
+            This project is a simple recreation of the Spotify interface, designed for educational and project purposes. While it doesn't include real music streaming capabilities, it showcases a clean, interactive UI inspired by the original platform.
+        </p>
+        <div class="team">
+            <h2>Meet the Team</h2>
+            <ul>
+                <li>🎵 Kalash Soni Project Lead & Frontend Developer </li>
+                <li>🎨 Jayesh Soni - UI/UX Designer</li>
+            </ul>
+        </div>
+    </div>
+    <div class="back">
+        <a href="index.html">Back to Main</a>
+    </div>
+</body>
+</html>

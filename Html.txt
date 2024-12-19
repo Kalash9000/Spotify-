@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .navbar ul li a:hover {
+            color: #1DB954;
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            display: none; /* Removed to center-align everything */
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            margin-top: 80px; /* Adjusted for navbar height */
+            text-align: center;
+            width: 90%; /* Added responsiveness */
+        }
+
+        .header {
+            margin-bottom: 20px;
+        }
+
+        .header input {
+            width: 300px;
+            padding: 8px;
+            border: none;
+            border-radius: 20px;
+        }
+
+        .playlists {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .playlist-card {
+            background-color: #282828;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+            width: 200px; /* Fixed card size */
+        }
+
+        .playlist-card:hover {
+            transform: scale(1.05);
+        }
+
+        .playlist-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .playlist-card h3 {
+            font-size: 18px;
+            margin: 10px 0 5px;
+        }
+
+        .playlist-card p {
+            font-size: 14px;
+            color: #b3b3b3;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #282828;
+            height: 100px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #b3b3b3;
+        }
+
+        .footer div {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <ul>
+            <li><a href="netHome.html" target="_blank">Home</a></li>
+            <li><a href="netLogin.html" target="_blank">Login</a></li>
+            <li><a href="netPlaylist.html" target="_blank">Playlist</a></li>
+            <li><a href="netAbout.html" target="_blank">About</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="header">
+            <h2>Welcome to Spotify</h2>
+            <input type="text" placeholder="Search for songs, artists...">
+        </div>
+
+        <h3>Made For You</h3>
+        <div class="playlists">
+            <div class="playlist-card">
+                <img src="img1.webp" alt="Playlist 1">
+                <h3>Top Hits</h3>
+                <p>The best songs of 2024</p>
+            </div>
+            <div class="playlist-card">
+                <img src="img2.webp" alt="Playlist 2">
+                <h3>Relaxation</h3>
+                <p>Calm and soothing music</p>
+            </div>
+            <div class="playlist-card">
+                <img src="img3.jpeg" alt="Playlist 3">
+                <h3>Workout Mix</h3>
+                <p>Get pumped up!</p>
+            </div>
+            <div class="playlist-card">
+                <img src="img5.jpeg" alt="Playlist 4">
+                <h3>Throwback</h3>
+                <p>Old but gold tracks</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div>Currently Playing: <strong>Track Name</strong></div>
+        <div>🎵 Play | ⏪ Prev | ⏩ Next</div>
+    </div>
+</body>
+</html>

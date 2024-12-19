@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone - Playlist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 30px;
+            background-color: #000;
+        }
+
+        .header h1 {
+            color: #1DB954;
+            font-size: 36px;
+        }
+
+        .playlist-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .playlist {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+            background-color: #282828;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .playlist:hover {
+            background-color: #333333;
+        }
+
+        .playlist img {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        .playlist-info {
+            flex: 1;
+            margin-left: 15px;
+        }
+
+        .playlist-info h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .playlist-info p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .back {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .back a {
+            text-decoration: none;
+            color: #1DB954;
+            font-size: 18px;
+        }
+
+        .back a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Your Playlists</h1>
+    </div>
+    <div class="playlist-container">
+        <div class="playlist">
+            <img src="workout-cover.jpg" alt="Workout Mix">
+            <div class="playlist-info">
+                <h3>Workout Mix</h3>
+                <p>High-energy tracks to power your workout!</p>
+               <audio src="Justin_Bieber_-_Despacito__Lyrics__ft._Luis_Fonsi,_Daddy_Yankee(256k).mp3"type controls="" >click here</audio>
+            </div>
+        </div>
+        <div class="playlist">
+            <img src="relaxation-cover.jpg" alt="Relaxation">
+            <div class="playlist-info">
+                <h3>Relaxation</h3>
+                <p>Soothing tunes to help you unwind.</p>
+                <audio src="Ram Siya Ram - Sachet Tandon.m4a" type controls="" ></audio>
+            </div>
+        </div>
+        <div class="playlist">
+            <img src="party-cover.jpg" alt="Party Hits">
+            <div class="playlist-info">
+                <h3>Party Hits</h3>
+                <p>Get the party started with these hits!</p>
+                <audio src="Tere_Pyaar_Mein__Full_Video__Tu_Jhoothi_Main_Makkaar__Ranbir,Shraddha__Pritam_Arijit,Nikhita,Amitabh(256k).mp3" type controls="" ></audio>
+            </div>
+        </div>
+        <div class="playlist">
+            <img src="favorites-cover.jpg" alt="Your Favorites">
+            <div class="playlist-info">
+                <h3>Your Favorites</h3>
+                <p>Your most loved songs in one place.</p>
+                <audio src="O Maahi (From  Dunki ) - Pritam, Arijit Singh, Irshad Kamil.m4a" type controls="" ></audio>
+            </div>
+        </div>
+    </div>
+    <div class="back">
+        <a href="index.html">Back to Main</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 50px 0;
+            color: #1DB954;
+        }
+
+        .section {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .section p {
+            font-size: 20px;
+            color: #ccc;
+        }
+
+        .back {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .back a {
+            text-decoration: none;
+            color: #1DB954;
+            font-size: 18px;
+        }
+
+        .back a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <div class="section">
+        <p>Discover your favorite music and albums here!</p>
+    </div>
+    <div class="back">
+        <a href="index.html">Back to Main</a>
+    </div>
+</body>
+</html>
+
